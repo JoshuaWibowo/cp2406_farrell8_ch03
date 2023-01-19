@@ -23,6 +23,14 @@ public class BookstoreCredit
         System.out.println(name + ", your  GPA is " + gpa +
                 ", so your discount is $" + discount);
     }
-    
+
+    public static void convertToLiters(int gallons)
+    {
+        double liters;
+        final double LITER_FACTOR = 3.7854;
+        liters = gallons * LITER_FACTOR;
+        System.out.println(gallons + " gallons is " + liters + " liters");
+    }
+
 }
 
